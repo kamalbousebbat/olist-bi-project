@@ -2,7 +2,7 @@
 
 # 🛒 BI Project — E-commerce Analysis (Olist Dataset)
 
-## 📌 Overview
+##  Overview
 This project presents a complete Business Intelligence (BI) pipeline built on the Brazilian e-commerce dataset provided by :contentReference[oaicite:0]{index=0}.  
 The objective is to design a professional BI architecture: from raw data extraction to a star-schema Data Warehouse and interactive dashboards.
 
@@ -11,13 +11,13 @@ Transform raw transactional data into actionable business insights for decision-
 
 ---
 
-## 🏗️ BI Architecture
+##  BI Architecture
 
 **Data Flow:**
 
 ---
 
-## 🗄️ Data Warehouse Model (Star Schema)
+##  Data Warehouse Model (Star Schema)
 
 **Fact Table**
 - `Sales` (1 row = 1 product in 1 order)
@@ -38,7 +38,7 @@ Transform raw transactional data into actionable business insights for decision-
 
 ---
 
-## 🔄 ETL Process (Pentaho)
+##  ETL Process (Pentaho)
 
 - Extract data from SQLite source tables:
   - orders, order_items, order_payments, order_reviews, products, customers, sellers, geolocation
@@ -53,7 +53,7 @@ Transform raw transactional data into actionable business insights for decision-
 
 ---
 
-## ✅ Data Quality & Validation
+## Data Quality & Validation
 
 To ensure data reliability, several validation checks were performed:
 
@@ -67,7 +67,7 @@ Results between source and Data Warehouse are consistent, validating the ETL pip
 
 ---
 
-## 📊 Power BI Report Structure
+## Power BI Report Structure
 
 The Power BI report contains:
 
@@ -88,7 +88,7 @@ The Power BI report contains:
 
 ---
 
-## 📈 Key KPIs
+##  Key KPIs
 
 - Total Revenue  
 - Total Orders  
@@ -99,7 +99,7 @@ The Power BI report contains:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Source:** SQLite  
 - **ETL:** Pentaho Data Integration  
@@ -108,13 +108,13 @@ The Power BI report contains:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Import the Olist SQLite database  
 2. Create the Data Warehouse schema in MySQL  
@@ -126,7 +126,7 @@ The Power BI report contains:
 
 
 
-## 👤 Author
+##  Author
 
 **Kamal Bousebbat**  
 BI / Data Analytics Project  
